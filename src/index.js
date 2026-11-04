@@ -1,5 +1,6 @@
 import { cotizar } from "./cotizador.js";
 import { formatearKg } from "./utils.js";
+import { formatearMXN } from './utils.js';
 
 // Paquete de ejemplo: una estructura pequeña.
 const piezas = [
