@@ -14,7 +14,7 @@ export const IVA = 0.16;
  * donde longitudMm es la longitud de cada pieza en milímetros.
  */
 export function pesoPieza(pieza) {
-  const metros = pieza.longitudMm / 100;
+  const metros = pieza.longitudMm / 1000;
   return pesoPorMetro(pieza.perfil) * metros * pieza.cantidad;
 }
 
